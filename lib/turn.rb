@@ -56,4 +56,4 @@ def turn(board)
     board
   else 
     puts "Please enter 1-9:"
-end
+  end
