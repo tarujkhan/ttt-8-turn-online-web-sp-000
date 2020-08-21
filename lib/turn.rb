@@ -37,4 +37,14 @@ end
 def move(board, index, token = "X")
   board[index] = token
 end
+
+def input_to_index(user_input)
+  changed_input = user_input.to_i 
+  changed_input -= 1
+  return changed_input
+end
+
+def move(board_array, index, character = "X")
+  board_array[index] = character
+  return board_array
 end
