@@ -52,5 +52,5 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   input_to_index(user_input)
-  if user_input.between?(0,8)
+  if user_input.between?(0, 8)
 end
