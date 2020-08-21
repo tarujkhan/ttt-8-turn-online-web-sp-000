@@ -53,4 +53,7 @@ def turn(board)
   puts "Please enter 1-9:"
   input_to_index(user_input)
   if user_input.between?(0, 8)
+    board
+  else 
+    puts "Please enter 1-9:"
 end
